@@ -1,0 +1,7 @@
+statsmodels
+matplotlib
+bokeh
+seaborn
+ggplot
+networkx
+theano
