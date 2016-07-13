@@ -1,4 +1,4 @@
-FROM jupyter/notebook:latest
+FROM jupyter/jupyterhub:latest
 MAINTAINER a504082002 <a504082002@gmail.com>
 
 RUN mkdir /build && cd /build
