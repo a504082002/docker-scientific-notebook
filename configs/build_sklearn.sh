@@ -16,11 +16,11 @@ mkdir /tmp/build
 cd /tmp/build
 
 # Build NumPy and SciPy from source against OpenBLAS installed
-git clone -q --branch=v1.10.1 git://github.com/numpy/numpy.git
+git clone -q --branch=v1.11.1 git://github.com/numpy/numpy.git
 cp /build/numpy-site.cfg numpy/site.cfg
 (cd numpy && python3 setup.py install)
 
-git clone -q --branch=v0.16.1 git://github.com/scipy/scipy.git
+git clone -q --branch=v0.18.1 git://github.com/scipy/scipy.git
 cp /build/scipy-site.cfg scipy/site.cfg
 (cd scipy && python3 setup.py install)
 

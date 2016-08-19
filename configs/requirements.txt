@@ -1,7 +1,11 @@
 statsmodels
+pandas
 matplotlib
 bokeh
 seaborn
 ggplot
 networkx
+caffe
 theano
+tensorflow
+
